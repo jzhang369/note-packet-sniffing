@@ -7,3 +7,7 @@ data = "TTTTTTT\n"
 pkt = ip/udp/data
 pkt.show()
 send(pkt)
+
+# You can use a dst IP under your management to actually receive the packet.
+# You can also quickly set up a server to observe the packet - "nc -luv port_num"
+
